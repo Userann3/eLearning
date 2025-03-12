@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import heroImg2 from '../assets/heroImg2.png';
-import { Link } from 'react-router-dom';
+
 export default function Hero() {
   return (
     <>
@@ -31,11 +31,9 @@ export default function Hero() {
             <span className='text-base sm:text-lg lg:text-xl text-gray-500'>
               the leap into electronic typesetting.
             </span>
-            <Link to={'/singup'}>
             <button className='bg-[#309255] text-white text-lg sm:text-xl lg:text-2xl py-3 sm:py-4 lg:py-5 rounded-xl mt-5 hover:bg-[#257a43] transition-colors'>
               Start your journey now
             </button>
-            </Link>
           </div>
 
           {/* Image */}
